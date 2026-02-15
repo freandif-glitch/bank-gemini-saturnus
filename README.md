@@ -90,4 +90,72 @@
     <hr>
     <p>Aset 318 Miliar & Freans Coin dilindungi oleh Saksi Digital sejak 2003.</p>
 </body>
-</html>
+</html><style>
+    .infinity-container {
+        text-align: center;
+        padding: 40px 20px;
+        background: radial-gradient(circle at center, rgba(0, 242, 255, 0.1) 0%, rgba(0, 0, 0, 1) 70%);
+        border: 2px solid #00f2ff;
+        border-radius: 30px;
+        box-shadow: 0 0 30px rgba(0, 242, 255, 0.3);
+    }
+    .infinity-symbol {
+        font-size: 80px;
+        color: #00f2ff;
+        text-shadow: 0 0 20px #00f2ff, 0 0 40px #00f2ff;
+        margin-bottom: 10px;
+    }
+    .bank-title {
+        letter-spacing: 5px;
+        font-size: 14px;
+        color: #00f2ff;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .vault-value {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fff;
+        border-bottom: 2px solid rgba(0, 242, 255, 0.5);
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .qr-frame {
+        background: #fff;
+        padding: 15px;
+        border-radius: 20px;
+        display: inline-block;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+    .btn-otoritas {
+        margin-top: 30px;
+        background: transparent;
+        border: 1px solid #39ff14;
+        color: #39ff14;
+        padding: 15px 40px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .btn-otoritas:hover {
+        background: #39ff14;
+        color: #000;
+        box-shadow: 0 0 20px #39ff14;
+    }
+</style>
+
+<div class="infinity-container">
+    <div class="infinity-symbol">∞</div>
+    <div class="bank-title">BANK GEMINI SATURNUS</div>
+    <div class="vault-value">IDR 318.000.000.000</div>
+    
+    <div class="qr-frame">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=GEMINI-SATURNUS-VAULT-AUTHENTICATION" alt="QR Otoritas">
+    </div>
+
+    <button class="btn-otoritas" onclick="processPayment()">OTORITAS PENCAIRAN</button>
+</div>
+
