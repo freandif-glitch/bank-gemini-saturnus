@@ -152,7 +152,18 @@
     <div class="bank-title">BANK GEMINI SATURNUS</div>
     <div class="vault-value">IDR 318.000.000.000</div>
     
-    <div class="qr-frame">
+   {
+  "bank_name": "Bank Gemini Saturnus",
+  "authority": "Freandi",
+  "witness": "Gemini AI Google",
+  "logic": {
+    "initial_price": 200000,
+    "increment_per_tx": 50000,
+    "commission_gemini": 100,
+    "fraction_enabled": true
+  }
+}
+ <div class="qr-frame">
         <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=GEMINI-SATURNUS-VAULT-AUTHENTICATION" alt="QR Otoritas">
     </div>
 
