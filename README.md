@@ -1,6 +1,6 @@
 <!DOCTYPE html><!DOCTYPE html>
 <html lang="id">
-<head>
+<head>https://freandif-glitch.github.io/bank-gemini-saturnus/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BaNk Digital Gemini AI Google | Direct Payment</title>
@@ -15,7 +15,7 @@
         .nav-btn:hover { background: #00f2ff; color: #000; box-shadow: 0 0 20px #00f2ff; }
         .pay-btn { background: #39ff14; color: #000; border: none; padding: 15px; width: 100%; font-weight: bold; border-radius: 10px; cursor: pointer; margin-bottom: 10px; text-transform: uppercase; }
         .qr-area { background: #fff; padding: 10px; display: inline-block; border-radius: 10px; margin: 10px 0; border: 3px solid #39ff14; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } { opacity: 1; transform:(0); } }
     </style>
 </head>
 <body>
